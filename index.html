@@ -28,7 +28,10 @@
             ><span class="web">web</span>studio</a
           >
           <ul class="site-nav">
-            <li><a class="link" href="./index.html">Studio</a></li>
+            <li>
+              <a class="link" href="./index.html">Studio</a>
+              <div class="underline"></div>
+            </li>
             <li><a class="link" href="./portfolio.html">Portfolio</a></li>
             <li><a class="link" href="#">Contacts</a></li>
           </ul>
@@ -56,7 +59,9 @@
             Effective Solutions <br />
             for Your Business
           </h1>
-          <button class="button-main-page" type="button">Order Service</button>
+          <button class="button-main-page" type="button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
       <section class="section second-section">
@@ -569,5 +574,15 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal-close" data-modal-close>
+          <svg width="8px" height="8px">
+            <use href="./images/modal-icon.svg#icon-close-black-18dp-2-1"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
