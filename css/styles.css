@@ -350,11 +350,6 @@ a {
   gap: 24px;
 }
 
-.customers-icon {
-  width: 104px;
-  height: 56px;
-}
-
 .customers-icons-link {
   border: 1px solid var(--color-light-slate);
   border-radius: 4px;
@@ -421,9 +416,6 @@ a {
 
 .footer-list {
   display: flex;
-}
-
-.list-footer-item {
   gap: 16px;
 }
 
